@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textjudul"
+        android:layout_width="361dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="26dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20dp"
+        tools:text="Menjumlahkan 2 buah bilangan" />
+
+
+    <TextView
+        android:id="@+id/lblBil1"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="471dp"
+        android:text="@string/bil_satu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <EditText
+        android:id="@+id/inputBil1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="202dp"
+        android:layout_marginBottom="426dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/lblBil2"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="369dp"
+        android:text="@string/bil_dua"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <EditText
+        android:id="@+id/inputBil2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="324dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCekBil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="248dp"
+        android:text="@string/btn_hitung"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="170dp"
+        android:text="Hasil Penjumlahan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="122dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+
+    </RelativeLayout>
